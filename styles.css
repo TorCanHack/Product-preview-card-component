@@ -1,0 +1,89 @@
+body {
+  width: min(90%, 375px);
+  margin: 0 auto;
+  padding: 2rem 0;
+  background-color: hsl(30, 38%, 92%);
+}
+body main {
+  background-color: hsl(0, 0%, 100%);
+  width: 95%;
+  height: 50rem;
+  margin: 0 auto;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+body main article {
+  padding: 1rem 0.5rem;
+}
+body main article h1, body main article .perfume-description, body main article .old-price, body main article button {
+  font-family: "Montserrat";
+}
+body main article h2, body main article .price {
+  font-family: "Fraunces";
+}
+body main article h1, body main article .perfume-description {
+  font-size: 1.1rem;
+  color: hsl(228, 12%, 48%);
+}
+body main article h2 {
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+body main article .price {
+  color: hsl(158, 36%, 37%);
+  font-size: 2rem;
+  display: inline;
+}
+body main article .old-price {
+  display: inline;
+  text-decoration: line-through;
+  margin-left: 1rem;
+  color: hsl(228, 12%, 48%);
+}
+body main article p {
+  font-size: 0.875rem;
+}
+body main article button {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  display: block;
+  width: 95%;
+  height: 4rem;
+  margin: auto;
+  position: relative;
+  bottom: -2rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+body main img {
+  width: 100%;
+  height: 41%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+body main svg {
+  margin-right: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    width: min(95%, 700px);
+    margin-top: 5.5rem;
+  }
+  main {
+    background-image: url("/Users/ayua/Downloads/product-preview-card-component-main/images/image-product-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 20rem 35rem;
+    height: 35rem !important;
+  }
+  main article {
+    width: 50%;
+    position: relative;
+    left: 20rem;
+    top: 3rem;
+  }
+  main img {
+    display: none;
+  }
+}/*# sourceMappingURL=styles.css.map */

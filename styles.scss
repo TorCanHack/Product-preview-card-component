@@ -1,0 +1,142 @@
+$darkCyan: hsl(158, 36%, 37%);
+$cream: hsl(30, 38%, 92%);
+$veryDarkblue: hsl(212, 21%, 14%);
+$darkgrayishblue: hsl(228, 12%, 48%);
+$cocaine: hsl(0, 0%, 100%);
+$mainFont: "Montserrat";
+$subFont: "Fraunces";
+
+
+
+body {
+    
+    width: min(90%, 375px);
+    margin: 0 auto;
+    padding: 2rem 0;
+    background-color: $cream;
+    
+
+
+    main {
+    
+        background-color: $cocaine;
+        width: 95%;
+        height: 50rem;
+        margin: 0 auto;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        
+        
+        article {
+            padding: 1rem .5rem;
+            
+
+             h1, .perfume-description, .old-price, button {
+                font-family: $mainFont;
+
+            }
+
+        
+
+            h2, .price {
+                font-family: $subFont;
+                
+            }
+
+            h1, .perfume-description{
+                font-size: 1.1rem;
+                color: $darkgrayishblue;
+            }
+
+            h2 {
+                font-size: 1.9rem;
+                font-weight: 800;
+            }
+
+            .price {
+                color: $darkCyan;
+                font-size: 2rem;
+                display: inline;
+            }
+
+            .old-price {
+                display: inline;
+                text-decoration: line-through;
+                margin-left: 1rem;
+                color: $darkgrayishblue;
+                
+                
+            }
+
+             p {
+                font-size: 0.875rem;
+            }
+
+            button {
+            background-color: $darkCyan;
+            color: $cocaine;
+            display: block;
+            width: 95%;
+            height: 4rem;
+            margin: auto;
+            position: relative;
+            bottom: -2rem;
+            border: none;
+            border-radius: 1rem;
+            font-size: 1rem;
+            }
+        }
+       
+
+         img {
+        width: 100%;
+        height: 41%;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        }
+
+        svg {
+            margin-right: 1rem;
+            
+        
+        }
+
+        
+    }
+
+    
+}
+
+@media screen and (min-width: 600px) {
+    
+    body {
+        
+        width: min(95%, 700px);
+        margin-top: 5.5rem;
+        
+        
+    }
+    main {
+        background-image: url("/Users/ayua/Downloads/product-preview-card-component-main/images/image-product-desktop.jpg");
+        background-repeat: no-repeat;
+        background-size: 20rem 35rem;
+        height: 35rem !important;
+        
+        article {
+            width: 50%;
+            position: relative;
+            left: 20rem;
+            top: 3rem;
+            
+            
+        }
+        
+       
+        
+
+        img {
+            display: none;
+        }
+    }
+    
+}
