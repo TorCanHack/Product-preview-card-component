@@ -111,22 +111,34 @@ body {
     
     body {
         
-        width: min(95%, 700px);
-        margin-top: 5.5rem;
+        width: min(95%, 600px);
+        margin-top: 7.5rem;
         
         
     }
     main {
         background-image: url("image-product-desktop.jpg");
         background-repeat: no-repeat;
-        background-size: 20rem 35rem;
-        height: 35rem !important;
+        background-size: 18rem 28rem;
+        height: 28rem !important;
         
         article {
-            width: 50%;
+            width: 38%;
             position: relative;
-            left: 20rem;
-            top: 3rem;
+            left: 19rem;
+            
+
+            h1, .perfume-description {
+                font-size: 1rem !important;
+            }
+
+            h2, .price {
+                font-size: 1.7rem !important;
+            }
+
+            button {
+                height: 3rem !important;
+            }
             
             
         }
