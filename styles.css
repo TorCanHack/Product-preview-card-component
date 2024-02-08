@@ -72,7 +72,7 @@ body main svg {
     margin-top: 5.5rem;
   }
   main {
-    background-image: url("/Users/ayua/Downloads/product-preview-card-component-main/images/image-product-desktop.jpg");
+    background-image: url("image-product-desktop.jpg");
     background-repeat: no-repeat;
     background-size: 20rem 35rem;
     height: 35rem !important;
